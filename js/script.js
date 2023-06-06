@@ -35,6 +35,8 @@ button.addEventListener("click",function(){
     }
 })
 
+       ///////// Date function
+
 let date= new Date()
 let courrentDate=date.toLocaleDateString()
 
@@ -56,8 +58,8 @@ function display(){
     })
     
 
-    
-
+       ///////// Three function
+            
     let threeDotEdit=document.querySelectorAll(".threeDotEdit")
     let convertThreeDotEdit=Array.from(threeDotEdit)
     convertThreeDotEdit.map((result3)=>{
@@ -69,7 +71,9 @@ function display(){
         })
 
     })
-    
+      
+        ///////// Love React function
+
     let love=document.querySelectorAll(".love")
     let loveConvert=Array.from(love)
     loveConvert.map((result2)=>{
@@ -83,6 +87,7 @@ function display(){
 
     })
 
+          ///////// Delete function
 
     let deleteBtn=document.querySelectorAll(".deleteBtn")
     let convertDeleteBtn=Array.from(deleteBtn)
